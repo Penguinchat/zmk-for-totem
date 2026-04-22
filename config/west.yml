@@ -13,9 +13,9 @@ manifest:
       import: app/west.yml
     - name: zmk-rgbled-widget  # <-- new entry
       remote: caksoylar
-      revision: main     
+      revision: v0.3-branch     
     - name: prospector-zmk-module                 
       remote: carrefinho                         
-      revision: v0.3-branch
+      revision: main 
   self:
     path: config
