@@ -8,7 +8,7 @@ include:
     shield: settings_reset
 # there is no settingsreset (needed) for the XIAO
   - board: seeeduino_xiao_ble
-  - shield: totem_dongle_C  prospector_adapter
+    shield: totem_dongle_C  prospector_adapter
     snippet: studio-rpc-usb-uart
   - board: seeeduino_xiao_ble
     shield: totem_dongle_L #rgbled_adapter
