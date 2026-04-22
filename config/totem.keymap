@@ -170,5 +170,5 @@ label= "ADJ"                               ;
         extra4 { status = "reserved"; };
 
         extra5 { status = "reserved"; };
-        };
+    };
 };
