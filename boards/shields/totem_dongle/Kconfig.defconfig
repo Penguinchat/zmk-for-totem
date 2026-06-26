@@ -4,11 +4,17 @@
 if SHIELD_TOTEM_DONGLE_C
 
 config ZMK_KEYBOARD_NAME
-    default "TOTEM"
+    default "Totem"
     
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
+config BT_MAX_CONN
+    default 7
+
+config BT_MAX_PAIRED
+    default 7
+    
 endif
 
 if SHIELD_TOTEM_DONGLE_C || SHIELD_TOTEM_DONGLE_L || SHIELD_TOTEM_DONGLE_R
